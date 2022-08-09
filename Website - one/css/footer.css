@@ -1,0 +1,22 @@
+:root {
+    --neon: #00ADB5;
+    --light-grey: #393E46;
+    --font-size1: 3rem;
+    --black: #222831;
+    --white: #EEEEEE;
+}
+
+footer{
+    background-color: var(--black);
+    padding: 30px;
+}
+footer ul li{
+display: inline-block;
+margin: 0 20px;
+}
+footer ul li a{
+    color: var(--white);
+}
+.foot-links{
+    display: inline-block;
+}

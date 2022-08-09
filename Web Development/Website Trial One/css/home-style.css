@@ -1,0 +1,22 @@
+.home-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 12% 0 0;
+
+}
+#Home{
+   width: 50%;
+}
+.desc {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+@media  (max-width: 600px) {
+    * {
+      background-color: rgb(9, 10, 10);
+    }
+  }

@@ -1,0 +1,29 @@
+:root{
+    --dark:rgb(35, 35, 35);
+    --light:rgb(209, 209, 209);
+}
+.toggle_btn{
+    background-color: rgb(231, 231, 115);
+    padding: 1rem 1.5rem;
+}
+.section{
+    text-align: center;
+    margin: 0 11rem;
+}
+.heading{
+    font-size: 5rem;
+}
+.description{
+    font-size: 2rem;
+}
+
+.same_color{
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+.dark_color{
+    color: var(--light);
+    background-color: var(--dark);
+
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: #212529;
+    color: white;
+}
+body {
+    padding: 0% 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logos{
+    text-decoration: none;
+    color: black;
+}
+.logos:hover{
+    color: black;
+}

@@ -1,0 +1,45 @@
+:root {
+    --neon: #00ADB5;
+    --light-grey: #393E46;
+    --font-size1: 3rem;
+    --black: #222831;
+    --white: #EEEEEE;
+}
+
+.container-one {
+    color: var(--black);
+    text-align: center;
+    font-size: var(--font-size1);
+    padding: 50vh 0 50vh 0;
+}
+
+.projects-left {
+    width: 800px;
+    margin: 0 auto ;
+    text-align: left;
+    font-size: 1.2rem;
+   padding: 70px 0;
+}
+
+.rocket-img-left {
+    float: left;
+    margin-right: 32px;
+}
+
+/* .projects-right {
+    width: 800px;
+    margin: 100px auto ;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.rocket-img-right {
+    float: right;
+    margin-left: 32px;
+} */
+
+.container-three{
+    margin: 0 50px;
+    font-size: 1.7rem;
+    padding: 70px 0;
+}
