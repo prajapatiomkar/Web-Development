@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Shapes start*/
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+
+
+
+}
+
+
+
+:root {
+    --shape-size: 12rem;
+}
+
+::selection {
+    background-color: none;
+    color: black;
+
+}
+
+h1 {
+    padding: 2rem 0;
+    font-size: 3rem;
+
+}
+
+.board {
+
+    margin: 1vh 0 0 0;
+
+
+}
+
+.shape-continer {
+    box-shadow: 5px 5px 1px black;
+    border: 1px solid grey;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 100%;
+    padding: 0.8rem;
+
+}
+
+.shapes {
+    padding: 0.1rem;
+    display: inline-block;
+    margin: 0.4rem;
+}
+
+.yellow-quarter-circle {
+    background-color: yellow;
+    width: var(--shape-size);
+    height: var(--shape-size);
+    border-radius: 100% 0 0 0;
+}
+
+.blue-quarter-circle {
+    background-color: blue;
+    width: var(--shape-size);
+    height: var(--shape-size);
+    border-radius: 0 100% 0 0;
+}
+
+.green-quarter-circle {
+    background-color: green;
+    width: var(--shape-size);
+    height: var(--shape-size);
+    border-radius: 0 0 100% 0;
+}
+
+.red-quarter-circle {
+    background-color: red;
+    width: var(--shape-size);
+    height: var(--shape-size);
+    border-radius: 0 0 0 100%;
+}
+
+/* Shapes end*/
+
+
+
+/* styling */
+
+.button-pressed {
+    box-shadow: 0 0 15px white;
+    background-color: rgb(184, 184, 184);
+}
+
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+
+button {
+    background-color: black;
+    color: wheat;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    border: 1px solid gray;
+    font-size: 1.5rem;
+}
+
+button:active {
+    box-shadow: 3px 3px 5px gray;
+}
+
+@media all and (max-width:600px) {
+    :root {
+        --shape-size: 8rem;
+    }
+
+    .shapes {
+        margin: 0.2rem;
+        padding: 0.0rem;
+    }
+
+    h1 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    button {
+
+        padding: 0.5rem 2rem;
+        margin: 1rem 0;
+    }
+}
